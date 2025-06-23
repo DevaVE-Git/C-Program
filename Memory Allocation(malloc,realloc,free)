@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char *fuck;
+
+    fuck= malloc(14);
+    strcpy(fuck,"Deva Prasanna");
+    printf("%s \n",fuck);
+    
+    free(fuck);
+    printf("%s",fuck);
+
+    }
