@@ -1,0 +1,15 @@
+//unary operation
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main() {
+    
+    int i=5;
+    printf("ans: %d  ",i);
+    i++;
+    printf("ans: %d",i);
+  
+}
