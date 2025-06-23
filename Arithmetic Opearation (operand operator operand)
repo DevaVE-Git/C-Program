@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+   
+   printf("Enter the value of A:");
+   scanf("%d",&a);
+   
+    printf("Enter the value of B:");
+   scanf("%d",&b);
+   
+   
+    c=a+b;  //add
+     printf("Answer:%d \n",c);
+     
+     c=a-b;  //subtract
+      printf("Answer:%d \n",c);
+      
+      c=a*b;   //Multiply
+       printf("Answer:%d \n",c);
+       
+       c=a/b;   // Div
+        printf("Answer:%d \n",c);
+        
+         c=a%b;   //mod
+          printf("Answer:%d \n",c);
+ 
+}
