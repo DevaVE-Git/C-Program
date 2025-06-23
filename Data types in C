@@ -1,0 +1,17 @@
+//Data types in C
+
+#include <stdio.h>
+
+int main() {
+    int a=5;
+    printf("%d \n",a);
+
+    float b=5.123456;
+    printf("%f \n",b);
+    
+    char c='c';
+    printf("%c \n",c);
+    
+    double d=6.1234567890248239430;
+    printf("%lf \n",d);
+  }
